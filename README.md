@@ -36,6 +36,96 @@ Here is a high level summary of the options which I will explore:
 
 </td>
         <td></td>
+        <td>Maximum 1,500 modifications to a table per day (this includes adding new rows)</td>
+    </tr>
+    <tr>
+        <td>self-hosted SQL server on a GCP Compute Engine VM</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>self-hosted SQL server on an AWS EC2 instance</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CloudNativePG (or other operator) on Google Kubernetes Engine (GKE)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CloudNativePG (or other operator) on Amazon Elastic Kubernetes Services (EKS)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Serverless (e.g. SQLite) with database files stored on cloud storage</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GCP Cloud SQL</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Amazon Relational Database Service (RDS)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>template placeholder row</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>template placeholder row</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
@@ -49,15 +139,3 @@ Here is a high level summary of the options which I will explore:
         <td></td>
     </tr>
 </table> 
-
-# Old markdown table
-
-| Method | Cost | Latency | Concurrency | Security | Setup/maintenance Difficulty | Backup/rollback/consistency/data loss|Limitations|
-|--------|------|---------|-------------|----------|------------------------------|-----------------------------|-------------|
-| Google BigQuery | | | |```diff + High (managed)``` |<code style="color : Green">Easy (managed)</code> | | Maximum 1,500 modifications to a table per day (this includes adding new rows) |
-| self-hosted SQL server on a GCP Compute Engine VM| | | | | | | |
-| self-hosted SQL server on an AWS EC2 instance| | | | | | | |
-| CloudNativePG on Google Kubernetes Engine (GKE)| | | | | | | |
-| CloudNativePG on Amazon Elastic Kubernetes Services (EKS)| | | | | | | |
-| Serverless (e.g. SQLite) with database files stored on cloud storage| | | | | | | |
-| template row | | | | | | | |
