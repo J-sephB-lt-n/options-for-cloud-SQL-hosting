@@ -1,5 +1,5 @@
 # options-for-cloud-SQL-hosting
-Exploring the cost and quality of different methods of hosting a SQL server on GCP and AWS.
+Exploring the cost and quality of different methods of hosting a cloud SQL server.
 
 Last update: 2024 Apr 04
 
@@ -109,7 +109,7 @@ Here is a high level summary of the options which I will explore:
         <td></td>
     </tr>
     <tr>
-        <td>template placeholder row</td>
+        <td>Amazon Aurora</td>
         <td></td>
         <td></td>
         <td></td>
